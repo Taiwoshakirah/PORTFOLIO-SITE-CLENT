@@ -7,7 +7,6 @@ import woman2 from "../assets/images/woman2.png";
 import man from "../assets/images/man.png";
 import stroke from "../assets/images/stroke.png";
 
-
 const About = () => {
   return (
     <div>
@@ -20,7 +19,7 @@ const About = () => {
               have the experience you need to among the 10% successful start ups
             </p>
           </div>
-          <video width="550" height="480" controls className="mb-5">
+          <video width="550" height="480" controls className="mb-5 rounded-4">
             <source src={officeVideo} type="video/mp4" />
           </video>
         </div>
@@ -37,11 +36,11 @@ const About = () => {
           />
         </div>
         <div className="d-lg-flex container gap-lg-4">
-          <div className="d-flex flex-column gap-lg-4">
+          <div className="d-flex flex-column gap-lg-4 woman">
             <img src={woman1} alt="" className="wom1" />
             <img src={woman2} alt="" className="wom2" />
           </div>
-          <div className="d-lg-flex align-items-lg-center gap-5">
+          <div className="d-lg-flex align-items-lg-center gap-5 try">
             <div>
               <img src={man} alt="" className="man" />
             </div>
