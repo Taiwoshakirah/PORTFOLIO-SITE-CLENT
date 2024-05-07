@@ -55,7 +55,7 @@ const About = () => {
           </div>
         </div>
         <div className="d-lg-flex gap-4 container justify-content-between section4">
-          <div className="d-flex flex-column gap-2">
+          <div className="d-flex flex-column gap-2 fact1">
             <div className="d-flex gap-2">
               <img src={stroke} alt="" />
               <h2>Facts 1</h2>
@@ -64,7 +64,7 @@ const About = () => {
               <span className="d-block">We have worked</span>with 12+ clients
             </p>
           </div>
-          <div className="d-flex flex-column gap-2">
+          <div className="d-flex flex-column gap-2 fact2">
             <div className="d-flex gap-2">
               <img src={stroke} alt="" />
               <h2>Facts 1</h2>
@@ -73,7 +73,7 @@ const About = () => {
               <span className="d-block">We have worked</span>with 12+ clients
             </p>
           </div>
-          <div className="d-flex flex-column gap-2">
+          <div className="d-flex flex-column gap-2 fact3">
             <div className="d-flex gap-2">
               <img src={stroke} alt="" />
               <h2>Facts 1</h2>
@@ -82,7 +82,7 @@ const About = () => {
               <span className="d-block">We have worked</span>with 12+ clients
             </p>
           </div>
-          <div className="d-flex flex-column gap-2">
+          <div className="d-flex flex-column gap-2 fact4">
             <div className="d-flex gap-2">
               <img src={stroke} alt="" />
               <h2>Facts 1</h2>

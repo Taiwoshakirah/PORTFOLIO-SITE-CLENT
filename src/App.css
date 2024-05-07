@@ -101,8 +101,9 @@
 
 @media(width<768px){
   .section4{
-    margin-top: 50px;
+    margin-top: 20px;
     flex-direction: column;
+    gap: 30px; 
   }
 }
 .identity{
@@ -125,8 +126,21 @@
 }
 @media(width<768px){
   .woman{
-    
     gap: 20px;
+  }
+}
+@media(width<768px){
+  .fact1{
+    text-align: start;
+  }
+  .fact2{
+    text-align: start;
+  }
+  .fact3{
+    text-align: start;
+  }
+  .fact4{
+    text-align: start;
   }
 }
 
